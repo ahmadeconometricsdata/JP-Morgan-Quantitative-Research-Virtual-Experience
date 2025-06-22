@@ -48,9 +48,7 @@ Predict loan default probability and compute **expected credit losses** using cu
 - Trained **Logistic Regression** and **Random Forest** classifiers on borrower features (e.g., income, debt, credit history)  
 - Evaluated models using classification report, confusion matrix, and **ROC-AUC**  
 - Computed **Expected Loss (EL)** using:  
-  \[
-  \text{EL} = \text{PD} \times \text{Exposure at Default (EAD)} \times (1 - \text{Recovery Rate})
-  \]
+  **Expected Loss (EL)** = **PD** × **Exposure at Default (EAD)** × *(1 - Recovery Rate)*
 
 **Outcome:**  
 An interpretable, production-ready PD/EL calculator that can assist in provisioning and credit decision automation.
